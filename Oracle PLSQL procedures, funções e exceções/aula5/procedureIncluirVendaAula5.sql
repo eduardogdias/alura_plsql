@@ -9,7 +9,7 @@ is
 begin
     insert into PRODUTO_VENDA_EXERCICIO values
     (p_id, p_cod_produto, sysdate, p_quantidade, p_preco, p_valor_total, p_percentual_imposto);
-    
+    commit;
 end;
 
 -- Testando ---------------------------------------------------------------
