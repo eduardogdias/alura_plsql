@@ -1,3 +1,9 @@
+select * from segmercado;
+select * from cliente;
+select * from PRODUTO_EXERCICIO;
+select * from PRODUTO_VENDA_EXERCICIO;
+
+
 -- formatando cnpj direto pelo sql
 select cnpj, substr(cnpj, 1, 3) || '/' ||  substr(cnpj, 4, 2) || '-' || substr(cnpj, 6) as cnpj_formatado
 from cliente;
